@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">MoviesApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_most_popular">Most Popular</string>
+    <string name="pref_top_rated">Top Rated</string>
+    <string name="pref_favourites">Favourites</string>
+    <string name="pref_filter_settings">Filter Options</string>
+    <string name="pref_filter_key">filter key</string>
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+
+
+    <!-- Example settings for Data & Sync -->
+
+
+    <string-array name="pref_filter_options">
+        <item>@string/pref_most_popular</item>
+        <item>@string/pref_top_rated</item>
+        <item>@string/pref_favourites</item>
+
+    </string-array>
+
+    <string-array name="pref_filter_values">
+        <item>@string/pref_most_popular</item>
+        <item>@string/pref_top_rated</item>
+        <item>@string/pref_favourites</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="title_activity_movie">Movie</string>
+
+    <!-- strings related to url !-->
+
+    <string name="Api_Key">"29e73188a3862e9aa26e1ee0ac39469b"</string>
+
+</resources>

@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?actionBarSize"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/movieTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0f0d0d"
+                android:text="Hello World1"
+                android:textColor="#ffffff"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxHeight="150dp"
+                android:maxWidth="100dp"
+                android:minHeight="150dp"
+                android:minWidth="100dp" />
+
+            <TextView
+                android:id="@+id/overview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/releaseDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/voteAvg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/trailerButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#0a0909"
+                android:text="show trailer"
+                android:textColor="#f8f2f2" />
+
+            <Button
+                android:id="@+id/favouriteButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mark as favourite"
+                android:textColor="#f8f2f2"
+                android:allowUndo="true"
+                android:background="#2b1616" />
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="wrap_content"
+                android:layout_height="225dp"
+                android:footerDividersEnabled="false" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
